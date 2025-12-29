@@ -1,5 +1,5 @@
 local Library = {}
-Library.MainColor = Color3.fromRGB(49, 51, 56)       
+Library.MainColor = Color3.fromRGB(114, 137, 228)       
 Library.BackgroundColor = Color3.fromRGB(43, 45, 49) 
 Library.AccentColor = Color3.fromRGB(88, 101, 242)   
 Library.OutlineColor = Color3.fromRGB(30, 31, 34)    
