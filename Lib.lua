@@ -1,10 +1,11 @@
 local Library = {}
-Library.MainColor = Color3.new(0.098, 0.098, 0.098)
-Library.BackgroundColor = Color3.new(0.137, 0.137, 0.137)
-Library.AccentColor = Color3.new(0.298, 0.447, 0.894)
-Library.OutlineColor = Color3.new(0.176, 0.176, 0.176)
-Library.TextColor = Color3.new(0.9, 0.9, 0.9)
-Library.Font = Enum.Font.Gotham
+Library.MainColor = Color3.fromRGB(49, 51, 56)       
+Library.BackgroundColor = Color3.fromRGB(43, 45, 49) 
+Library.AccentColor = Color3.fromRGB(88, 101, 242)   
+Library.OutlineColor = Color3.fromRGB(30, 31, 34)    
+Library.TextColor = Color3.fromRGB(242, 243, 245)    
+Library.SecondaryText = Color3.fromRGB(181, 186, 193)
+Library.Font = Enum.Font.GothamMedium               
 Library.RegistryMap = {}
 
 local ProtectGui = protectgui or (syn and syn.protect_gui) or (function(gui)
